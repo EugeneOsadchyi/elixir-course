@@ -21,5 +21,5 @@ defmodule Lists do
   def sum_pairs([ h1, h2 | t]), do: [ h1 + h2 | sum_pairs(t) ]
 
   def even_length?([]), do: true
-  def even_length?([a]), do: false
+  def even_length?([_a]), do: false
 end
